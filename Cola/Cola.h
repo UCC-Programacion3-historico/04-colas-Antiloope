@@ -49,7 +49,9 @@ Cola<T>::Cola() {
  * @tparam T
  */
 template<class T>
-Cola<T>::~Cola() {}
+Cola<T>::~Cola() {
+    vaciar();
+}
 
 
 /**
